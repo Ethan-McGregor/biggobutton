@@ -5,17 +5,26 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="biggobutton.ethanm4.washington.edu.biggobutton.MainActivity">
+    tools:context="biggobutton.ethanm4.washington.edu.biggobutton.MainActivity"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    android:windowNoTitle="true"
+   >
 
     <Button
         android:text="Push Me!"
+        android:background="#18b418"
+        android:textSize="40dp"
+        android:textColor="#c51b12"
+        android:textStyle="italic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/button2"
+        android:id="@+id/bigButton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+
         android:layout_alignParentTop="true" />
 </RelativeLayout>
+
